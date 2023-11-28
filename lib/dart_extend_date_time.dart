@@ -17,6 +17,12 @@ extension FormatinDatetime on DateTime {
   }
 }
 
+void main() {
+  final a = DateTime(2023, 12, 30);
+  print(a.formattedDate());
+}
+
+
 
 
 /*
